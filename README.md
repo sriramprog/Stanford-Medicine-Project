@@ -7,10 +7,9 @@ Nephrology clinics manage high-risk patients who require timely review of lab re
 The primary goal was to design clearer workflows and decision-support mechanisms that ensure critical lab results are reviewed, escalated, and acted upon promptly—without overburdening clinical staff or disrupting existing clinic operations. This is crucial as nephrology clinics handle patients with chronic kidney disease who are especially vulnerable to abnormal lab results such as elevated potassium levels. In practice, lab values requiring urgent action may be reviewed late or escalated inconsistently due to unclear role ownership, fragmented workflows, and competing clinical priorities. These gaps can delay intervention and increase the risk of patient harm. 
 
 ### Methodology:
-1. Stakeholder & Role Mapping
+Part 1: Stakeholder & Role Mapping
 I mapped the core stakeholders involved in nephrology clinic operations—including physicians, nurses, advanced practice providers, and care coordinators—to understand how responsibilities for lab review, escalation, and patient follow-up were distributed. This step surfaced role boundaries, workload pressures, and coordination gaps that can delay action on abnormal lab results.
 
-Core Stakeholders, Responsibilities, and Pain Points:
 1. Physicians (MD / Nephrologist)
 Primary Responsibilities:
 - Final clinical decision-making for abnormal lab results
@@ -55,13 +54,13 @@ Pain Points:
 - Scheduling conflicts that delay follow-up testing
 - Limited clinical context when handling urgent cases
 
-2. Workload Diagnostics using a Real Patient Scenario
+Part 2: Workload Diagnostics using a Real Patient Scenario
 Using a common kidney patient case involving an elevated potassium level of more than 6.2 mmol/L, I examined how the existing workflow broke down. Root cause analysis techniques (5 Whys and Fishbone diagrams) were used to identify contributing factors across people, process, technology, information flow, and clinical environment. This analysis highlighted issues such as unclear ownership of lab review, alert fatigue, limited follow-up bandwidth during busy clinic hours, and lack of visual cues for urgency.
 
-3. From Clinical Decision to Logic Translation
+Part 3: From Clinical Decision to Logic Translation
 To reduce ambiguity in case escalation decisions, globally established clinical guidelines were translated into explicit, step-by-step decision logic, which defined when labs should be reviewed, how patient symptoms and history influence urgency, and which clinical role is responsible for escalation at each step. The decision logic was visualized as a clear flowchart to make escalation pathways easy to follow during time-constrained clinical work.
 
-4. Decision-Support Dashboard and Adoption Planning
+Part 4: Decision-Support Dashboard and Adoption Planning
 Based on the clarified workflow and decision logic, a role-aware decision-support dashboard was prototyped to surface urgent lab results, recommended actions, and documentation requirements. To ensure the solution could realistically be adopted, a change management plan was developed using Kotter’s Change Model, including role-based training, resistance mitigation strategies, and success metrics focused on usage, timeliness of escalation, and reduction in missed or delayed interventions.
 
 ### Skills:
