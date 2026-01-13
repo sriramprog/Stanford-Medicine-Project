@@ -2,7 +2,7 @@
 
 <p align="center">
   <img 
-    src="https://github.com/user-attachments/assets/f8377898-ca38-4593-8518-403e5473da8c"
+    src="<img width="618" height="180" alt="image" src="https://github.com/user-attachments/assets/5ddc9f70-0997-4b00-97b2-e0009b4298cc" />
     alt="Stanford Medicine Externship"
     style="max-width: 65%; height: auto;"
   />
