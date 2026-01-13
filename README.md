@@ -24,7 +24,7 @@ _**2. Workflow Breakdown & Root Cause Analysis**_<br>
 Analyzed a representative high-risk case involving severe hyperkalemia (>6.2 mmol/L) to identify failure points in the existing workflow. Root cause analysis (Fishbone diagram - see figure below) revealed systemic contributors across people, process, technology, and operations, including unclear ownership, alert fatigue, and lack of standardized escalation thresholds.
 
 <img width="1442" height="492" alt="image" src="https://github.com/user-attachments/assets/128a9ead-e769-4dc3-9f7b-3cf08a0ea67d" />
-<figcaption>Fishbone (Ishikawa) analysis identifying systemic contributors to delayed hyperkalemia escalation across people, process, technology, and management factors.</figcaption>
+<figcaption>Fishbone (Ishikawa) analysis identifying systemic contributors to delayed hyperkalemia escalation across people, process, technology, and management factors.</figcaption> <br>
 
 _Key Root Causes Identified:_<br>
 - Role ambiguity in time-based accountability for lab review
