@@ -55,7 +55,17 @@ Pain Points:
 - Limited clinical context when handling urgent cases
 
 Part 2: Workload Diagnostics using a Real Patient Scenario
-Using a common kidney patient case involving an elevated potassium level of more than 6.2 mmol/L, I examined how the existing workflow broke down. Root cause analysis techniques (5 Whys and Fishbone diagrams) were used to identify contributing factors across people, process, technology, information flow, and clinical environment. This analysis highlighted issues such as unclear ownership of lab review, alert fatigue, limited follow-up bandwidth during busy clinic hours, and lack of visual cues for urgency.
+Using a common kidney patient case involving an elevated potassium level of more than 6.2 mmol/L, I examined how the existing workflow broke down. Root cause analysis techniques such as the Fishbone diagram were used to identify contributing factors across people, process, technology, information flow, and clinical environment. This analysis highlighted issues such as unclear ownership of lab review, alert fatigue, limited follow-up bandwidth during busy clinic hours, and lack of visual cues for urgency.
+
+<img width="1442" height="492" alt="image" src="https://github.com/user-attachments/assets/128a9ead-e769-4dc3-9f7b-3cf08a0ea67d" />
+<figcaption>Figure 1: Fishbone (Ishikawa) analysis identifying systemic contributors to delayed hyperkalemia escalation across people, process, technology, and management factors.</figcaption>
+
+**Key Root Causes Identified:**
+- Role ambiguity: No clear owner for time-based accountability on lab review and escalation
+- Process gaps: Lack of standardized protocols for critical potassium thresholds
+- Technology limitations: EHR alerts did not differentiate urgency or track acknowledgment
+- Operational pressure: High patient volumes and competing clinic demands reduced follow-up bandwidth
+- Governance gaps: Limited QA feedback loops to identify repeated missed alerts
 
 Part 3: From Clinical Decision to Logic Translation
 To reduce ambiguity in case escalation decisions, globally established clinical guidelines were translated into explicit, step-by-step decision logic, which defined when labs should be reviewed, how patient symptoms and history influence urgency, and which clinical role is responsible for escalation at each step. The decision logic was visualized as a clear flowchart to make escalation pathways easy to follow during time-constrained clinical work.
