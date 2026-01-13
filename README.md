@@ -1,5 +1,8 @@
 # Improving Nephrology Clinical Workflow Operations Project
 
+<img width="618" height="180" alt="image" src="https://github.com/user-attachments/assets/84e1e101-276c-4a29-b73e-c0a9d109f571" />
+<img width="1920" height="438" alt="image" src="https://github.com/user-attachments/assets/f8377898-ca38-4593-8518-403e5473da8c" />
+
 ## Executive Summary:
 Nephrology clinics manage high-risk patients who require timely review of lab results and rapid clinical escalation. This project analyzed real nephrology clinic workflows to identify breakdowns in lab review, role clarity, and escalation processes that can delay care and increase patient safety risk. Using root cause analysis, clinical guideline mapping, and process design principles, the project translated complex clinical rules into clear decision pathways and a role-aware decision-support dashboard. The goal was to improve care coordination, reduce escalation delays, and support safer, more reliable clinical decision-making in busy nephrology clinic environments at Stanford Medicine.
 
@@ -7,74 +10,64 @@ Nephrology clinics manage high-risk patients who require timely review of lab re
 The primary goal was to design clearer workflows and decision-support mechanisms that ensure critical lab results are reviewed, escalated, and acted upon promptly—without overburdening clinical staff or disrupting existing clinic operations. This is crucial as nephrology clinics handle patients with chronic kidney disease who are especially vulnerable to abnormal lab results such as elevated potassium levels. In practice, lab values requiring urgent action may be reviewed late or escalated inconsistently due to unclear role ownership, fragmented workflows, and competing clinical priorities. These gaps can delay intervention and increase the risk of patient harm. 
 
 ### Methodology:
-Part 1: Stakeholder & Role Mapping
-I mapped the core stakeholders involved in nephrology clinic operations—including physicians, nurses, advanced practice providers, and care coordinators—to understand how responsibilities for lab review, escalation, and patient follow-up were distributed. This step surfaced role boundaries, workload pressures, and coordination gaps that can delay action on abnormal lab results.
+**1. Stakeholder & Role Mapping**__
+Mapped core nephrology clinic roles—physicians, registered nurses, advanced practice providers, and care coordinators—to understand how responsibilities for lab review, escalation, and follow-up were distributed. This surfaced role boundaries, workload pressures, and coordination gaps that contributed to delayed action on abnormal lab results.
 
-1. Physicians (MD / Nephrologist)
-Primary Responsibilities:
-- Final clinical decision-making for abnormal lab results
-- Diagnosis and treatment planning
-- Oversight of escalation and referrals (e.g., ER, cardiology)
-
-Pain Points:
-- High administrative burden reduces time available for timely lab review
-- Reliance on downstream staff to flag urgent results
-- Risk of delayed awareness when labs are reviewed outside clinic hours
-
-2. Registered Nurses (RN)
-Primary Responsibilities:
-- Ongoing lab monitoring and initial review
-- Patient assessment and symptom checks
-- Communication with physicians for abnormal findings
-
-Pain Points:
-- Heavy workload and competing priorities during clinic hours
-- Unclear escalation thresholds for borderline or evolving lab values
-- Alert fatigue from high volumes of non-actionable notifications
-
-3. Advanced Practice Providers (APP):
-Primary Responsibilities:
-- Intermediate clinical assessment and treatment initiation
-- Execution of escalation protocols under physician supervision
-- Follow-up on abnormal labs and medication adjustments
-
-Pain Points:
-- Ambiguity around when to escalate vs. manage independently
-- Limited visibility into lab review timelines across care team members
-- Balancing high patient load with timely escalation decisions
-
-4. Patient Care Coordinators (PCC):
-Primary Responsibilities:
-- Scheduling follow-up appointments and repeat labs
-- Coordinating referrals and insurance verification
-= Patient outreach and communication
-
-Pain Points:
-- Downstream dependency on clinical decisions before action can be taken
-- Scheduling conflicts that delay follow-up testing
-- Limited clinical context when handling urgent cases
-
-Part 2: Workload Diagnostics using a Real Patient Scenario
-Using a common kidney patient case involving an elevated potassium level of more than 6.2 mmol/L, I examined how the existing workflow broke down. Root cause analysis techniques such as the Fishbone diagram were used to identify contributing factors across people, process, technology, information flow, and clinical environment. This analysis highlighted issues such as unclear ownership of lab review, alert fatigue, limited follow-up bandwidth during busy clinic hours, and lack of visual cues for urgency.
+**2. Workflow Breakdown & Root Cause Analysis**__
+Analyzed a representative high-risk case involving severe hyperkalemia (>6.2 mmol/L) to identify failure points in the existing workflow. Root cause analysis (Fishbone diagram - see figure below) revealed systemic contributors across people, process, technology, and operations, including unclear ownership, alert fatigue, and lack of standardized escalation thresholds.
 
 <img width="1442" height="492" alt="image" src="https://github.com/user-attachments/assets/128a9ead-e769-4dc3-9f7b-3cf08a0ea67d" />
-<figcaption>Figure 1: Fishbone (Ishikawa) analysis identifying systemic contributors to delayed hyperkalemia escalation across people, process, technology, and management factors.</figcaption>
+<figcaption>_Fishbone (Ishikawa) analysis identifying systemic contributors to delayed hyperkalemia escalation across people, process, technology, and management factors._</figcaption>
 
-**Key Root Causes Identified:**
-- Role ambiguity: No clear owner for time-based accountability on lab review and escalation
-- Process gaps: Lack of standardized protocols for critical potassium thresholds
-- Technology limitations: EHR alerts did not differentiate urgency or track acknowledgment
-- Operational pressure: High patient volumes and competing clinic demands reduced follow-up bandwidth
-- Governance gaps: Limited QA feedback loops to identify repeated missed alerts
+_Key Root Causes Identified:_
+- Role ambiguity in time-based accountability for lab review
+- Absence of standardized escalation protocols for critical potassium values
+- Limited EHR support for urgency differentiation and acknowledgment tracking
+- High patient volume reducing follow-up capacity
+- Lack of feedback loops to detect repeated missed alerts
+  
+**3. Clinical Guideline to Decision Logic Translation**__
+Translated established nephrology and patient safety guidelines into explicit, step-by-step decision logic defining escalation timing, clinical risk stratification, and role-specific responsibilities. The logic was visualized as a flowchart to enable fast, consistent escalation decisions during time-constrained clinical work.
 
-Part 3: From Clinical Decision to Logic Translation
-To reduce ambiguity in case escalation decisions, globally established clinical guidelines were translated into explicit, step-by-step decision logic, which defined when labs should be reviewed, how patient symptoms and history influence urgency, and which clinical role is responsible for escalation at each step. The decision logic was visualized as a clear flowchart to make escalation pathways easy to follow during time-constrained clinical work.
-
-Part 4: Decision-Support Dashboard and Adoption Planning
-Based on the clarified workflow and decision logic, a role-aware decision-support dashboard was prototyped to surface urgent lab results, recommended actions, and documentation requirements. To ensure the solution could realistically be adopted, a change management plan was developed using Kotter’s Change Model, including role-based training, resistance mitigation strategies, and success metrics focused on usage, timeliness of escalation, and reduction in missed or delayed interventions.
+**4. Decision-Support Design & Adoption Planning**__
+Prototyped a role-aware decision-support dashboard to surface urgent lab results, recommended actions, and documentation requirements. Developed an adoption plan using Kotter’s Change Model, including role-based training, resistance mitigation, and success metrics focused on escalation timeliness and error reduction.
 
 ### Skills:
-
+- Clinical workflow analysis and process design  
+- Stakeholder mapping and role-based responsibility modeling  
+- Root cause analysis (Fishbone, 5 Whys)  
+- Translation of clinical guidelines into decision logic  
+- Decision-support system design (role-aware, time-bound escalation)  
+- Healthcare operations and patient safety analysis  
+- Change management and adoption planning  
+- Data-informed dashboard prototyping for clinical use cases  
 
 ### Results & Business Recommendation:
-Here is the final dashboard.
+- Established a standardized, guideline-driven escalation framework for hyperkalemia management in nephrology clinics.
+- Clarified ownership and timing of lab review and escalation across physicians, nurses, APPs, and care coordinators.
+- Translated complex clinical rules into actionable, role-aware decision pathways that reduce ambiguity and escalation delays.
+- Demonstrated how decision-support tools can surface urgent cases, recommended actions, and documentation needs without increasing alert fatigue.
+
+<img width="1310" height="708" alt="image" src="https://github.com/user-attachments/assets/56961f2d-17d8-447f-aa1b-cd1e0c91521d" />
+<figcaption>_Role-aware nephrology decision-support dashboard highlighting clinician priorities, quick actions, and active lab alerts._</figcaption>
+
+<img width="1272" height="468" alt="image" src="https://github.com/user-attachments/assets/2e0301c1-5a89-4a6e-8fac-98df4d86f6fd" />
+<figcaption>_Centralized potassium monitoring table surfacing critical, elevated, and normal lab values with timestamps and recommended protocol access._</figcaption>
+
+<img width="1270" height="840" alt="image" src="https://github.com/user-attachments/assets/7f846dbc-da9d-4e1c-9762-551d1f69710c" />
+<figcaption>_Guideline-driven escalation view for Patient A of hyperkalemia level at 6.2 mmol/L: including urgency level, escalation timeline, and role-appropriate clinical actions._</figcaption>
+
+<img width="1262" height="841" alt="image" src="https://github.com/user-attachments/assets/f156e350-7b71-4baf-99cf-3febaa74934c" />
+<figcaption>_Guideline-driven escalation view for Patient D of hyperkalemia level at 5.3 mmol/L: including urgency level, escalation timeline, and role-appropriate clinical actions._</figcaption>
+
+<img width="1250" height="772" alt="image" src="https://github.com/user-attachments/assets/aa518ebd-2f15-4652-a36d-5e6859997f8e" />
+<figcaption>_Guideline-driven escalation view for Patient C of hyperkalemia level at 4.5 mmol/L: including urgency level, escalation timeline, and role-appropriate clinical actions._</figcaption>
+
+
+**Some business recommendations one can take away from here:**
+- Deploy role-aware decision-support views to align escalation actions with scope of practice, reducing hesitation and informal workarounds during critical lab events.
+- Use time-based escalation thresholds (e.g., lab review within 1 hour, intervention within 2 hours) to improve accountability and reduce delays in high-risk cases.
+- Leverage centralized lab monitoring tables to prioritize clinician attention toward critical and overdue results without increasing alert fatigue.
+- Standardize documentation prompts within the workflow to support auditability, quality improvement, and patient safety reporting.
+- Pilot the dashboard with a small subset of nephrology teams to validate usability, adoption, and escalation timeliness before broader rollout.
+
