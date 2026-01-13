@@ -2,7 +2,7 @@
 
 <p align="center">
   <img 
-    src="[https://github.com/user-attachments/assets/f8377898-ca38-4593-8518-403e5473da8](https://online.stanford.edu/schools-centers/stanford-school-medicine)c"
+    src="https://online.stanford.edu/schools-centers/stanford-school-medicine"
     alt="Stanford Medicine Externship"
     style="max-width: 60%; height: auto;"
   />
