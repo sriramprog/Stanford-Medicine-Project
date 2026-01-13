@@ -1,11 +1,11 @@
 # Improving Nephrology Clinical Workflow Operations Project
 
 <p align="center">
-  <img 
-    src="https://online.stanford.edu/schools-centers/stanford-school-medicine"
-    alt="Stanford Medicine Externship"
-    style="max-width: 60%; height: auto;"
-  />
+  <img
+    src="https://github.com/user-attachments/assets/de5abf8c-3fdc-4026-9929-0f89f1dd58c7"
+    alt="Stanford Medicine"
+    style="max-width: 70%; height: auto;"
+    />
 </p>
 
 *Conducted as part of a consulting externship in collaboration with Stanford Medicine through Extern.*
