@@ -17,29 +17,29 @@ Nephrology clinics manage high-risk patients who require timely review of lab re
 The primary goal was to design clearer workflows and decision-support mechanisms that ensure critical lab results are reviewed, escalated, and acted upon promptly—without overburdening clinical staff or disrupting existing clinic operations. This is crucial as nephrology clinics handle patients with chronic kidney disease who are especially vulnerable to abnormal lab results such as elevated potassium levels. In practice, lab values requiring urgent action may be reviewed late or escalated inconsistently due to unclear role ownership, fragmented workflows, and competing clinical priorities. These gaps can delay intervention and increase the risk of patient harm. 
 
 ### Methodology:
-_**1. Stakeholder & Role Mapping**_
+_**1. Stakeholder & Role Mapping**_<br>
 Mapped core nephrology clinic roles—physicians, registered nurses, advanced practice providers, and care coordinators—to understand how responsibilities for lab review, escalation, and follow-up were distributed. This surfaced role boundaries, workload pressures, and coordination gaps that contributed to delayed action on abnormal lab results.
 
-_**2. Workflow Breakdown & Root Cause Analysis**_
+_**2. Workflow Breakdown & Root Cause Analysis**_<br>
 Analyzed a representative high-risk case involving severe hyperkalemia (>6.2 mmol/L) to identify failure points in the existing workflow. Root cause analysis (Fishbone diagram - see figure below) revealed systemic contributors across people, process, technology, and operations, including unclear ownership, alert fatigue, and lack of standardized escalation thresholds.
 
 <img width="1442" height="492" alt="image" src="https://github.com/user-attachments/assets/128a9ead-e769-4dc3-9f7b-3cf08a0ea67d" />
 <figcaption>Fishbone (Ishikawa) analysis identifying systemic contributors to delayed hyperkalemia escalation across people, process, technology, and management factors.</figcaption>
 
-_Key Root Causes Identified:_
+_Key Root Causes Identified:_<br>
 - Role ambiguity in time-based accountability for lab review
 - Absence of standardized escalation protocols for critical potassium values
 - Limited EHR support for urgency differentiation and acknowledgment tracking
 - High patient volume reducing follow-up capacity
 - Lack of feedback loops to detect repeated missed alerts
   
-_**3. Clinical Guideline to Decision Logic Translation**_
+_**3. Clinical Guideline to Decision Logic Translation**_<br>
 Translated established nephrology and patient safety guidelines into explicit, step-by-step decision logic defining escalation timing, clinical risk stratification, and role-specific responsibilities. The logic was visualized as a flowchart to enable fast, consistent escalation decisions during time-constrained clinical work.
 
-_**4. Decision-Support Design & Adoption Planning**_
+_**4. Decision-Support Design & Adoption Planning**_<br>
 Prototyped a role-aware decision-support dashboard to surface urgent lab results, recommended actions, and documentation requirements. Developed an adoption plan using Kotter’s Change Model, including role-based training, resistance mitigation, and success metrics focused on escalation timeliness and error reduction.
 
-### Skills:
+### Skills:<br>
 - Clinical workflow analysis and process design  
 - Stakeholder mapping and role-based responsibility modeling  
 - Root cause analysis (Fishbone, 5 Whys)  
@@ -49,7 +49,7 @@ Prototyped a role-aware decision-support dashboard to surface urgent lab results
 - Change management and adoption planning  
 - Data-informed dashboard prototyping for clinical use cases  
 
-### Results:
+### Results:<br>
 - Established a standardized, guideline-driven escalation framework for hyperkalemia management in nephrology clinics.
 - Clarified ownership and timing of lab review and escalation across physicians, nurses, APPs, and care coordinators.
 - Translated complex clinical rules into actionable, role-aware decision pathways that reduce ambiguity and escalation delays.
