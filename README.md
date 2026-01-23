@@ -77,3 +77,26 @@ Prototyped a role-aware decision-support dashboard to surface urgent lab results
 - Standardize documentation prompts within the workflow to support auditability, quality improvement, and patient safety reporting.
 - Pilot the dashboard with a small subset of nephrology teams to validate usability, adoption, and escalation timeliness before broader rollout.
 
+## Limitations & Next Steps
+**Current Limitations**
+
+Prototype-level decision support: The dashboard and decision logic were developed as a conceptual and workflow-level prototype. While grounded in real clinic workflows and guidelines, the solution was not integrated into the live EHR environment, limiting real-time validation under production constraints.
+
+Focused clinical scope: The analysis and decision logic centered primarily on hyperkalemia escalation to illustrate high-risk lab handling. Other nephrology-related abnormalities (e.g., creatinine trends, fluid overload indicators) were not modeled in this phase.
+
+Workflow simulation over longitudinal measurement: Improvements in escalation timeliness and error reduction were demonstrated through workflow analysis and scenario walkthroughs rather than longitudinal outcome data or controlled pilots.
+
+Change adoption assumptions: Adoption planning accounted for role-based training and resistance mitigation, but actual behavioral adoption, alert adherence, and workload impact were not measured through live clinician usage.
+
+**Next Steps**
+
+Pilot integration within the EHR environment: Integrate the decision-support logic into existing EHR workflows to evaluate real-world usability, alert responsiveness, and impact on escalation timelines without increasing clinician burden.
+
+Expand decision logic to additional nephrology risks: Extend the framework to cover other high-risk lab patterns and longitudinal trends, enabling a more comprehensive safety monitoring system for chronic kidney disease management.
+
+Implement feedback and audit loops: Add mechanisms to track missed alerts, delayed escalations, and override patterns to support continuous quality improvement and patient safety reporting.
+
+Evaluate outcomes and operational impact: Measure key metrics such as time-to-escalation, intervention delays, and clinician workload before and after deployment to quantify safety and efficiency gains.
+
+Scale role-aware decision support across specialties: Apply the same role-mapped, guideline-driven design approach to other clinical domains where time-sensitive lab interpretation and escalation are critical.
+
