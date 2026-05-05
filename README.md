@@ -5,7 +5,7 @@
 ![Change Management](https://img.shields.io/badge/Framework-Kotter's_Change_Model-6C3483)
 ![License](https://img.shields.io/badge/License-Portfolio-lightgrey)
 
-> **Extern × Stanford Medicine · Mar – May 2025**  
+> **Extern × Stanford Medicine**  
 > A clinical workflow analytics project analyzing nephrology lab escalation failures, translating complex clinical guidelines into role-aware decision logic, and prototyping a decision-support dashboard to reduce critical lab review delays and patient safety risk.
 
 ---
